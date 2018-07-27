@@ -1,0 +1,9 @@
+[
+    {
+        "name":"Eclipse Orion Code Editor",
+        "description":"Powerful JavaScript code editor, equipped with content assist, code completion, error checking and a code map",
+        "repository":"https://github.com/dirigiblelabs/ide-orion.git",
+        "version":"latest",
+        "site":"https://orionhub.org/"
+    }
+]
