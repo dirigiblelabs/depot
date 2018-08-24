@@ -12,5 +12,19 @@
         "repository":"https://github.com/dirigiblelabs/ide-schema.git",
         "version":"latest",
         "site":"http://www.dirigible.io/help/ide_modeler_database_schema.html"
+    },
+    {
+        "name":"Entity Data Modeler",
+        "description":"Entity Data Modeler Plugin for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-entity.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_modeler_entity_data.html"
+    },
+    {
+        "name":"BPMN Modeler",
+        "description":"BPMN Modeler Plugin for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-bpm.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_modeler_bpmn.html"
     }
 ]
