@@ -5,5 +5,12 @@
         "repository":"https://github.com/dirigiblelabs/ide-orion.git",
         "version":"latest",
         "site":"https://orionhub.org/"
+    },
+    {
+        "name":"Database Schema Modeler",
+        "description":"Database Schema Modeler Plugin for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-schema.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_modeler_database_schema.html"
     }
 ]
