@@ -47,5 +47,47 @@
         "repository":"https://github.com/dirigiblelabs/ide-terminal.git",
         "version":"latest",
         "site":"http://www.dirigible.io/help/ide_perspective_terminal.html"
+    },
+    {
+        "name":"Git Perspective",
+        "description":"Git Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-git.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_git.html"
+    },
+    {
+        "name":"Debugger Perspective",
+        "description":"Debugger Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-debugger.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_debugger.html"
+    },
+    {
+        "name":"Database Perspective",
+        "description":"Database Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-database.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_database.html"
+    },
+    {
+        "name":"Documents Perspective",
+        "description":"Documents Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-documents.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_documents.html"
+    },
+    {
+        "name":"Repository Perspective",
+        "description":"Repository Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-repository.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_repository.html"
+    },
+    {
+        "name":"Operations Perspective",
+        "description":"Operations Perspective for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-operations.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_perspective_operations.html"
     }
 ]
