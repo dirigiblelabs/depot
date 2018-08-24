@@ -42,6 +42,13 @@
         "site":"http://www.dirigible.io/help/ide_modeler_bpmn.html"
     },
     {
+        "name":"Console",
+        "description":"Console Plugin for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-console.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_view_console.html"
+    },
+    {
         "name":"Terminal (via HTTP/S)",
         "description":"Terminal Plugin via HTTP for the WebIDE",
         "repository":"https://github.com/dirigiblelabs/ide-terminal.git",
@@ -89,5 +96,12 @@
         "repository":"https://github.com/dirigiblelabs/ide-operations.git",
         "version":"latest",
         "site":"http://www.dirigible.io/help/ide_perspective_operations.html"
+    },
+    {
+        "name":"Logs View",
+        "description":"Logs View for the WebIDE",
+        "repository":"https://github.com/dirigiblelabs/ide-logs.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/ide_view_logs.html"
     }
 ]
