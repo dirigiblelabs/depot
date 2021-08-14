@@ -1,17 +1,31 @@
 [
     {
-        "name":"Eclipse Orion Code Editor",
-        "description":"Powerful JavaScript code editor, equipped with content assist, code completion, error checking and a code map",
-        "repository":"https://github.com/dirigiblelabs/ide-orion.git",
+        "name":"Entity Data Modeler",
+        "description":"Entity Data Modeler to define the domain model of the application",
+        "repository":"https://github.com/dirigiblelabs/ide-entity.git",
         "version":"latest",
-        "site":"https://orionhub.org/"
+        "site":"https://www.dirigible.io/help/development/ide/modelers/entity-data/"
     },
     {
-        "name":"ACE Code Editor",
-        "description":"Ace is an embeddable code editor written in JavaScript",
-        "repository":"https://github.com/dirigiblelabs/ide-ace.git",
+        "name":"Database Schema Modeler",
+        "description":"Database Schema Modeler to define the database layout",
+        "repository":"https://github.com/dirigiblelabs/ide-schema.git",
         "version":"latest",
-        "site":"https://ace.c9.io/"
+        "site":"https://www.dirigible.io/help/development/ide/modelers/database-schema/"
+    },
+    {
+        "name":"BPMN Modeler",
+        "description":"BPMN Modeler for defining business processes",
+        "repository":"https://github.com/dirigiblelabs/ide-bpm.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/modelers/bpmn/"
+    },
+    {
+        "name":"Form Designer",
+        "description":"Form Designer to create web forms with drag &amp; drop",
+        "repository":"https://github.com/dirigiblelabs/ide-form-builder.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/modelers/form-designer/"
     },
     {
         "name":"Monaco Code Editor",
@@ -21,87 +35,108 @@
         "site":"https://microsoft.github.io/monaco-editor/"
     },
     {
-        "name":"Database Schema Modeler",
-        "description":"Database Schema Modeler Plugin for the WebIDE",
-        "repository":"https://github.com/dirigiblelabs/ide-schema.git",
-        "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_modeler_database_schema.html"
-    },
-    {
-        "name":"Entity Data Modeler",
-        "description":"Entity Data Modeler Plugin for the WebIDE",
-        "repository":"https://github.com/dirigiblelabs/ide-entity.git",
-        "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_modeler_entity_data.html"
-    },
-    {
-        "name":"BPMN Modeler",
-        "description":"BPMN Modeler Plugin for the WebIDE",
-        "repository":"https://github.com/dirigiblelabs/ide-bpm.git",
-        "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_modeler_bpmn.html"
-    },
-    {
         "name":"Console",
-        "description":"Console Plugin for the WebIDE",
+        "description":"Console plugin to inspect the most recent log records",
         "repository":"https://github.com/dirigiblelabs/ide-console.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_view_console.html"
+        "site":"https://www.dirigible.io/help/development/ide/views/console/"
     },
     {
-        "name":"Terminal (via HTTP/S)",
-        "description":"Terminal Plugin via HTTP for the WebIDE",
+        "name":"Terminal",
+        "description":"Terminal plugin powered by Xterm.js",
         "repository":"https://github.com/dirigiblelabs/ide-terminal.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_terminal.html"
+        "site":"https://www.dirigible.io/help/development/ide/views/terminal/"
     },
     {
-        "name":"Git Perspective",
-        "description":"Git Perspective for the WebIDE",
+        "name":"Workbench",
+        "description":"Workbench perspective for to develop and model cloud applications",
+        "repository":"https://github.com/dirigiblelabs/ide-workbench.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/workbench/"
+    },
+    {
+        "name":"Git",
+        "description":"Git perspective for interaction with Git compliant source code repositories",
         "repository":"https://github.com/dirigiblelabs/ide-git.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_git.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/git/"
     },
     {
-        "name":"Debugger Perspective",
-        "description":"Debugger Perspective for the WebIDE",
+        "name":"Debugger",
+        "description":"Debugger perspective to debug server side Javascript code",
         "repository":"https://github.com/dirigiblelabs/ide-debugger.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_debugger.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/debugger/"
     },
     {
-        "name":"Database Perspective",
-        "description":"Database Perspective for the WebIDE",
+        "name":"Database",
+        "description":"Database perspective to inspect the state of the database(s)",
         "repository":"https://github.com/dirigiblelabs/ide-database.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_database.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/database/"
     },
     {
-        "name":"Documents Perspective",
-        "description":"Documents Perspective for the WebIDE",
+        "name":"Documents",
+        "description":"Documents perspective to manage documents in the CMIS compiant repository",
         "repository":"https://github.com/dirigiblelabs/ide-documents.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_documents.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/documents/"
     },
     {
-        "name":"Repository Perspective",
-        "description":"Repository Perspective for the WebIDE",
+        "name":"Repository",
+        "description":"Repository perspective to inspect the current state of the operational repository",
         "repository":"https://github.com/dirigiblelabs/ide-repository.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_repository.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/repository/"
     },
     {
-        "name":"Operations Perspective",
-        "description":"Operations Perspective for the WebIDE",
+        "name":"Registry",
+        "description":"Registry view to inspect the current state of the public registry",
+        "repository":"https://github.com/dirigiblelabs/ide-registry.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/views/registry/"
+    },
+    {
+        "name":"Operations",
+        "description":"Operations Perspective to inspect the extensions and other declarative artifacts",
         "repository":"https://github.com/dirigiblelabs/ide-operations.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_perspective_operations.html"
+        "site":"https://www.dirigible.io/help/development/ide/perspectives/operations/"
     },
     {
-        "name":"Logs View",
-        "description":"Logs View for the WebIDE",
+        "name":"Logs",
+        "description":"Logs View to see the log records in the different log files",
         "repository":"https://github.com/dirigiblelabs/ide-logs.git",
         "version":"latest",
-        "site":"http://www.dirigible.io/help/ide_view_logs.html"
+        "site":"https://www.dirigible.io/help/development/ide/views/logs/"
+    },
+    {
+        "name":"Discussions",
+        "description":"Discussions to collaborate with the other developers",
+        "repository":"https://github.com/dirigiblelabs/ide-discussions.git",
+        "version":"latest",
+        "site":"http://www.dirigible.io/help/"
+    },
+    {
+        "name":"Configurations",
+        "description":"Configurations to inspect or set configuration settings",
+        "repository":"https://github.com/dirigiblelabs/ide-operations.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/views/configurations/"
+    },
+    {
+        "name":"Access",
+        "description":"Access to inspect the current security configuration",
+        "repository":"https://github.com/dirigiblelabs/ide-security.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/views/access/"
+    },
+    {
+        "name":"Roles",
+        "description":"Roles to inspect the current user roles configuration",
+        "repository":"https://github.com/dirigiblelabs/ide-security.git",
+        "version":"latest",
+        "site":"https://www.dirigible.io/help/development/ide/views/roles/"
     }
 ]
